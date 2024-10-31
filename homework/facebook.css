@@ -1,0 +1,162 @@
+/* body {
+    background-color: rgb(228, 228, 228);
+    height: 100vh; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.10em;
+    text-align: justify;
+}
+#main {
+    display: flex;
+    padding-left: 30px;
+    height: 100vh; 
+    margin: 0 100px 0px 30px;
+}
+/*.intro {
+    margin: 150Px 0 0 0;
+    padding: 0 0 0 50px;
+    color: blue;
+    display: flex;
+}
+form {
+    background-color: white;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+}
+input {
+    width: 85%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: 1px rgb(134, 128, 128);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px 20px 10px 10px;
+    height: 20px;
+} 
+.subtitle {
+    width: 350px;
+    height: 2px;
+    margin-right: 280px;
+}
+ .Login {
+    background-color: rgb(70, 70, 231);
+    border-radius: 10px;
+    color: white;
+    text-decoration: solid;
+    margin: 10px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    width: 85%;
+    border: none;
+}
+.Create-button {
+    padding: 15px;
+    background-color: rgb(20, 129, 20);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.page-link {
+    text-decoration: none;
+}
+.button {
+    text-decoration: none; */
+ }
+ body {
+    background-color: rgb(228, 228, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+#main {
+    display: flex;
+    padding-left: 50px;
+    height: 100vh; 
+    margin: 10px 50px 15px 30px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+ h1 {
+    color: rgb(78, 78, 230);
+    text-align: justify;
+    margin-right: 500px;
+    
+ }
+ .intro {
+ }
+ .subtitle {
+
+ } 
+
+ .subtitle {
+    text-align: left;
+ }
+
+ form {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin: 20px;
+    padding: 10px;
+ }
+input {
+    width: 90%;
+    border-radius: 5px;
+    margin: 5px;
+    height: 45px;
+    /* border: grey; */
+}
+
+.Login {
+    width: 90%;
+    background-color: rgba(73, 70, 241, 0.795);
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    height: 45px;
+    border: none;
+    margin: 10px;
+}
+.Create-button {
+    background-color: rgb(32, 161, 32);
+    color: rgb(251, 251, 253);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    margin: 15px;
+    box-sizing: border-box;
+ }
+.forgot{
+    color: rgb(67, 67, 231);
+    margin: 5px;
+    font-size: large;
+}
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.Create-link {
+    font-size: large;
+    margin: 20px;
+    text-align: center;
+
+}
