@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(white, white, grey);
+    padding: 0 100px;
+    height: 100vh;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav .sub-nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav .sub-nav .logo {
+    /* border: 1px solid red; */
+    font-weight: 700;
+}
+
+nav .sub-nav a {
+    /* border: 1px solid red; */
+    color: grey;
+    text-decoration: none;
+}
+
+nav .sub-nav button {
+    /* border: 1px solid red; */
+    /* height: 30px; */
+}
+
+nav>.sub-nav>.login {
+    background-color: rgb(249, 246, 246);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-color: aliceblue;
+}
+
+nav .sub-nav .sign-up {
+    background-color: green;
+    font-size: 10px;
+    font-weight: 50px;
+    color: white;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+    text-decoration: none;
+}
+.side-img {
+    position: absolute;
+    top: 150px;
+    right: -50px;
+    z-index: -1;
+    transform: scale(0.5);
+    transform-origin: top right;
+}
+
+main {
+    display: block;
+}
+
+.mp {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+
+.mp h1 {
+    font-size: 600;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.mp p {
+    color: grey;
+}
+
+.mp>button {
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 60px 0 100px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mp {}
+
+.mp>.search-bar {
+    background-image: linear-gradient(rgb(21, 21, 121), rgb(19, 20, 31), grey);
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    display: flex;
+    height: 100px;
+    gap: 10px;
+}
+
+.mp>.search-bar .bar {
+    /* border: 1px solid red; */
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    /* outline: none; */
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+}
+
+.mp>.search-bar .but {
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
