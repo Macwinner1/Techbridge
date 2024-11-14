@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+    margin-top: 50px;
+}
+
+#main .intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#main .intro h1 {
+    color: rgb(78, 78, 230);
+
+}
+
+#main .form-section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+#main .form-section form {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+    height: 350px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main .form-section form input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form-section form .Login {
+    border: none;
+    background-color: rgba(73, 70, 241, 0.795);
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 550;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+}
+
+.form-section form p {
+    color: rgb(44, 134, 194);
+    margin-top: 20px;
+}
+
+.form-section form .Create-button {
+    background-color: rgb(32, 161, 32);
+    color: rgb(251, 251, 253);
+    border-radius: 10px;
+    border: none;
+    font-weight: 500px;
+    margin-top: 30px;
+    padding: 15px 30px;
+}
+
+.form-section> p {
+    font-family: sans-serif;
+    color: rgb(49, 49, 121);
+    font-size: 15px;
+    margin-top: 10px;
+}
+.form-section .link {
+    text-decoration: none;
+}
