@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            height: 100vh;
+
+        }
+
+        .container {
+            display: flex;
+            /* align-items: center; */
+            border: 1px solid red;
+            /* height: 500px; */
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 20px;
+
+        }
+
+        .container div {
+            height: 100px;
+            width: 100px;
+        }
+
+        .container .red {
+            background-color: red;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .container .blue {
+            /* background-color: blue; */
+        }
+
+        .container .yellow {
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .container .green {
+            /* background-color: green; */
+        }
+
+        .yellow .black {
+            background-color: black;
+            width: 20px;
+            height: 20px;
+
+        }
+        .red .black{
+            width: 20px;
+            height: 20px;
+            background-color: black;
+        }
+        .red .blue {
+            width: ;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="red">
+                <div class="black"></div>
+                <div class="black"></div>
+                <div class="black"></div>
+            </div>
+            <div class="yellow">
+                <div class="black"></div>
+                <div class="black"></div>
+                <div class="black"></div>
+            </div>
+            <!-- <div class="blue"></div> -->
+            <!-- <div class="green"></div> -->
+            <div class="red">
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+            </div>
+            <div class="yellow">
+                <div class="blue"></div>
+                <div class="blue"></div>
+                <div class="blue"></div>
+            </div>
+            <!-- <div class="blue"></div> -->
+            <!-- <div class="green"></div> -->
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="indexjs.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="html and javascript">
+    <title>javascript</title>
+</head>
+
+<body>
+    <div class="body">
+        <button>open</button>
+        <div class="slider">
+
+        </div>
+    </div>
+    <!-- <script>
+
+        //animals names creation
+        let animals = ["cat", "dog", "lion", "tiger", "buffalo", "goat", "elephant", "monkey"];
+
+        //taking any animal name
+        let animal = Math.floor(Math.random() * animals.length);
+
+        //creating array answer
+        let answerarray = [];
+        for (let i = 0; i < animal.length; i++) {
+            answerarray[i] = "_";
+        }
+        let remainingletters = animal.length;
+        //create the loop for game 
+        while (remainingletters > 0) {
+
+            alert(answerarray.join(" "));
+            //taking values from the user
+
+            let guess = prompt("Guess the alphabet of the animal having " + answerarray + " alphabets or click on cancel to exit");
+
+            if (guess == null) {
+                break;
+            } else {
+                if (guess.length != 1) {
+                    alert("Please enter a single alphabet");
+                } else {
+                    for (let j = 0; j < animal.length; j++) {
+                        if (animal[j] == guess) {
+                            answerarray[j] = guess;
+                            remainingletters--;
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+        //give final answer and congratulate the player
+        alert(answerarray.join(" "));
+        alert("Good job. the answer was " + word + " .");
+    </script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
