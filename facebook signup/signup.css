@@ -1,6 +1,6 @@
 * {
-    margin: 10;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -20,57 +20,57 @@ body {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
-  /* border: 1px solid red; */
 }
 .mainp form {
-  background-color: aliceblue;
-  height: 650px;
+  background-color: #fff;
   width: 500px;
-  /* border: 1px solid red; */
-  padding: 20px;
+  box-shadow: 5px 5px 20px grey;
+  padding: 30px;
 }
 .mainp form .head-p {
   text-align: center;
-  /* border: 1px solid red; */
+  margin-bottom: 10px;
 }
-.mainp form input {
-  border-radius: 5px;
-  height: 40px;
-  padding: 0 20px;
-  margin: 6px;
-  /* border: 1px solid red; */
-}
-form .day-section {
-    display: flex;
-    gap: 10px;
-}
-form .day-section > select {
-  padding: 10px 70px;
-}
-form .day-section #month {
-  padding: 10px 45px;
-}
-form .day-section #year {
-  padding: 10px 45px;
-}
-form .gen-input {
+.mainp form .namerow {
   display: flex;
   gap: 10px;
 }
-form .gen-input > label {
-  flex-direction: column;
+.mainp form .namerow input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  flex: 1;
+}
+form .day-section {
+  display: flex;
+  gap: 10px;
+}
+form .day-section > select {
+  padding: 10px;
+  flex: 1;
+}
+form .gen-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 form .gen-input .gen-design {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid grey;
-  padding: 0 16px;
-  gap: 30px;
+  padding: 10px;
+  flex: 1;
 }
 form .down-input {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+form .down-input input {
+  padding: 15px;
+  border-radius: 5px;
 }
 form > p {
   font-size: 15px;
@@ -79,11 +79,11 @@ form p > a {
   text-decoration: none;
 }
 form .floorp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 form .floorp a {
   text-decoration: none;
