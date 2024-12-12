@@ -1,0 +1,57 @@
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header-nav .nav-logo {
+  width: 68px;
+  height: 68px;
+}
+.header-nav .nav-cen a {
+  text-decoration: none;
+  padding: 24px;
+  color: black;
+}
+.header-nav .nav-left a {
+  text-decoration: none;
+  padding: 24px;
+  color: black;
+}
+.header-nav .nav-left .nav-log {
+  background-color: aqua;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.sec-main {
+  display: flex;
+  padding: 30px;
+}
+.sec-main .sec-left {
+  padding-right: 60px;
+}
+.sec-left .sec-input {
+  display: flex;
+}
+.sec-main .sec-left h2 {
+  font-size: 30px;
+}
+.sec-main .sec-left span {
+  color: green;
+}
+.sec-main .sec-left input {
+  width: 60%;
+  height: 30px;
+}
+.sec-left2 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.sec-left2 img {
+  opacity: 60%;
+}
+.sec-right img {
+  width: 450px;
+}
